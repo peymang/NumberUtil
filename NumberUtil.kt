@@ -138,6 +138,7 @@ class NumberUtil {
          * @throws Exception if number length more than [NumberUtil.maxInt]
          */
         private fun getIntWord(number: String): String {
+            if (number.matches("^[0]+$".toRegex())) return zero
             var firstIndexThatNotZero = 0
             var cleanNumber = "0"
 
@@ -177,6 +178,7 @@ class NumberUtil {
          * @throws Exception if number length more than [NumberUtil.maxInt]
          */
         private fun getDecWord(number: String): String {
+            if (number.matches("^[0]+$".toRegex())) return ""
             var lastIndexThatNotZero = number.length
             loop@ for (i in number.length - 1 downTo 0)
                 if (number[i] != '0') {
