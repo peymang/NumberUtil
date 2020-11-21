@@ -48,7 +48,7 @@ If you use a number longer than that defined throw `Exception`
 اتفاق می افتد
 
 ## test
-A real programmer uses `in production` test method, which causes more excitement and adrenaline release, resulting in physical health and mental damage.
+A real programmer uses `in-production` test method, which causes more excitement and adrenaline release, resulting in physical health and mental damage.
 
 Or
 
