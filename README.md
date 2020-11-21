@@ -36,9 +36,9 @@ NumberUtil.Companion.toPersianWord("1234567889.0123456789")
 
 ## feature
 Convert integers with a maximum length of 105 and decimal numbers with a maximum length of 11 into Persian words
-if you use a number more than maximum define throw `Exception`
+If you use a number longer than that defined throw `Exception`
 
-## feature in persian(ویژگی ها به زبان پارسی)
+## feature in persian(ویژگی ها به پارسی)
 تبدیل اعداد صحیح با طول حداکثر 105 و اعداد اعشاری با طول حداکثر 11  به کلمه فارسی 
 
 اگر شما از یک عدد بزرگتر از حداکثرهای تعریف شده استفاده کنید خطای
