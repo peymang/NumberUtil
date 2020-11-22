@@ -1,5 +1,5 @@
 /**
- * @author peyman ghafari pour
+ * @author peyman ghafari pour(https://github.com/peymang)
  * version 1.0
  */
 class NumberUtil {
