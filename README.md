@@ -49,7 +49,3 @@ If you use a number longer than that defined throw `Exception`
 
 ## test
 A real programmer uses `in-production` test method, which causes more excitement and adrenaline release, resulting in physical health and mental damage.
-
-Or
-
-go one step further and do not test your program at all
